@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="57fddaad-69cb-434c-9d2b-64e13b43d56a" name="Changes" comment="Exercicios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Ex1.executor": "Run",
-    "Python.Ex2.executor": "Run",
-    "Python.Ex3.executor": "Run",
-    "Python.Ex4.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ex2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ex3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ex4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ex5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740602522671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercicios">
+      <option name="closed" value="true" />
+      <created>1740664380942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740664380942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

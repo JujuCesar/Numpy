@@ -77,14 +77,81 @@ import numpy as np
 # Elementos aleatorios e unicos
 
 # Gerando numeros aleatorios
-np.random.seed(10) # Ao adicionar uma semente, voce gera os mesmos numeros aleatorios
-arr = np.random.randint(20,50,10) # Uni dimensional
-print(arr)
+#np.random.seed(10) # Ao adicionar uma semente, voce gera os mesmos numeros aleatorios
+#arr = np.random.randint(20,50,10) # Uni dimensional
+#print(arr)
 
-arr2 = np.random.randint(20,50,[2,2]) #  Bi dimensional
-print(arr2)
+#arr2 = np.random.randint(20,50,[2,2]) #  Bi dimensional
+#print(arr2)
 
 # Extraindo elementos unicos com unique
-arr3 = np.random.randint(20,50,[5,5])
-print(np.unique(arr3, return_counts=True))
+#arr3 = np.random.randint(20,50,[5,5])
+#print(np.unique(arr3, return_counts=True))
 
+
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+# Fatiamento de Numpyarrays Bidimensionais
+
+#mtz = np.arange(1, 10, 1).reshape(3,3)
+#print(mtz)
+
+# Slicing em uma unica linha
+#print(mtz[2])
+
+# Slicing de multiplas linhas
+#print(mtz[1:])
+
+# Slicing em uma unica coluna
+#print(mtz[:, 1])
+
+# Slicing de multiplas colunas
+#print(mtz[:, 1:])
+
+
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+
+# Condicionais
+
+#print(mtz > 5) # Retorna valores como true ou false
+
+#print(mtz[mtz > 5]) # Retorna uma lista com os elementos
+
+#print(mtz % 2 == 0)
+
+#print(mtz[mtz % 2 == 0])
+
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+
+# Padrões Textuais
+
+#arr = np.array(['Goku', 'Gohan', 'Vegeta', 'Bulma', 'Goten'])
+
+#print(np.char.find(arr, 'Go')) # Mostra os itens no formato 0, 0, -1, -1, 0
+
+#print(np.char.find(arr, 'Go') >= 0) # Mostra True e false
+
+#print(arr[np.char.find(arr, 'Go') >= 0]) # Mostra os nomes de fato
+
+#print(np.char.find(arr, 'a')) # Mostra a posição que o elemento aparece
+
+#print(arr[np.char.find(arr, 'a') >= 0]) # Mostra os nomes de fato
+
+
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+
+# Salvando e carregando dados com Numpy
+
+# Importando arquivos externos:
+# Após ter esse documento na raiz do projeto:
+
+dataset = np.loadtxt('space.csv',delimiter = ';', dtype= 'str', encoding='utf-8')
+
+print(dataset)
