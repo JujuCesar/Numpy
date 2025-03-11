@@ -1,3 +1,5 @@
+from traceback import print_tb
+
 import numpy as np
 
 # Numpy Array Unidimensional
@@ -138,7 +140,7 @@ import numpy as np
 
 #print(arr[np.char.find(arr, 'Go') >= 0]) # Mostra os nomes de fato
 
-#print(np.char.find(arr, 'a')) # Mostra a posição que o elemento aparece
+#print(np.char.find(arr, 'a')) # Mostra a posição que o elemento aparece em cada item
 
 #print(arr[np.char.find(arr, 'a') >= 0]) # Mostra os nomes de fato
 
@@ -154,4 +156,6 @@ import numpy as np
 
 dataset = np.loadtxt('space.csv',delimiter = ';', dtype= 'str', encoding='utf-8')
 
-print(dataset)
+#print(dataset)
+
+#print(np.char.find(dataset, 'Success'))
